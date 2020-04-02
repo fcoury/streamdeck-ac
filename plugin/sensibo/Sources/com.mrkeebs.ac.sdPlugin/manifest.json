@@ -1,0 +1,69 @@
+{
+  "Actions": [
+    {
+      "Icon": "actionIcon",
+      "Name": "Temperature Sensor",
+      "States": [
+        {
+          "Image": "actionDefaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Reads the current ambient temperature.",
+      "UUID": "com.mrkeebs.ac.sensor"
+    },
+    {
+      "Icon": "actionIcon",
+      "Name": "Increase Temperature",
+      "States": [
+        {
+          "Image": "actionDefaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Increases the temperature by 1 degree.",
+      "UUID": "com.mrkeebs.ac.increaseTemp"
+    },
+    {
+      "Icon": "actionIcon",
+      "Name": "Decrease Temperature",
+      "States": [
+        {
+          "Image": "actionDefaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Increases the temperature by 1 degree.",
+      "UUID": "com.mrkeebs.ac.decreaseTemp"
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "Felipe Coury",
+  "CodePath": "src/plugin.html",
+  "PropertyInspectorPath": "src/inspector.html",
+  "Description": "Track the number of times you press a key.",
+  "Name": "Sensibo",
+  "Icon": "pluginIcon",
+  "URL": "https://www.elgato.com/gaming/stream-deck",
+  "Version": "1.4",
+  "OS": [
+    {
+        "Platform": "mac",
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows",
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software":
+    {
+        "MinimumVersion" : "4.1"
+    }
+}
