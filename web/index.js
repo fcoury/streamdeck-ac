@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser')
-const redis = require('redis');
 const axios = require('axios');
 
 require('dotenv').config();
@@ -9,7 +8,6 @@ require('dotenv').config();
 const app = express();
 app.use(bodyParser.json({ limit: '50mb' }));
 
-const client = redis.createClient(process.env.REDIS_URL);
 const port = process.env.PORT || 3000;
 
 const {
